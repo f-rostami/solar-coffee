@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarCoffe.Test", "SolarCof
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarCoffe.Web", "SolarCoffe.Web\SolarCoffe.Web.csproj", "{C9BC3239-727B-4BDA-AFAE-C58599C821BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarCoffee.Services", "SolarCoffee.Services\SolarCoffee.Services.csproj", "{04BAD434-6283-4E3D-B62E-93A87B83A09E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +60,17 @@ Global
 		{C9BC3239-727B-4BDA-AFAE-C58599C821BE}.Release|x64.Build.0 = Release|Any CPU
 		{C9BC3239-727B-4BDA-AFAE-C58599C821BE}.Release|x86.ActiveCfg = Release|Any CPU
 		{C9BC3239-727B-4BDA-AFAE-C58599C821BE}.Release|x86.Build.0 = Release|Any CPU
+		{04BAD434-6283-4E3D-B62E-93A87B83A09E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04BAD434-6283-4E3D-B62E-93A87B83A09E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04BAD434-6283-4E3D-B62E-93A87B83A09E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{04BAD434-6283-4E3D-B62E-93A87B83A09E}.Debug|x64.Build.0 = Debug|Any CPU
+		{04BAD434-6283-4E3D-B62E-93A87B83A09E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{04BAD434-6283-4E3D-B62E-93A87B83A09E}.Debug|x86.Build.0 = Debug|Any CPU
+		{04BAD434-6283-4E3D-B62E-93A87B83A09E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04BAD434-6283-4E3D-B62E-93A87B83A09E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04BAD434-6283-4E3D-B62E-93A87B83A09E}.Release|x64.ActiveCfg = Release|Any CPU
+		{04BAD434-6283-4E3D-B62E-93A87B83A09E}.Release|x64.Build.0 = Release|Any CPU
+		{04BAD434-6283-4E3D-B62E-93A87B83A09E}.Release|x86.ActiveCfg = Release|Any CPU
+		{04BAD434-6283-4E3D-B62E-93A87B83A09E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
