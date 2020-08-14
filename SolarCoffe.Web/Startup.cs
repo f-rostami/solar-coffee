@@ -12,6 +12,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using SolarCoffe.Data;
+using SolarCoffee.Services.Customer;
+using SolarCoffee.Services.Inventory;
+using SolarCoffee.Services.Order;
 using SolarCoffee.Services.Product;
 
 namespace SolarCoffe.Web
@@ -36,6 +39,9 @@ namespace SolarCoffe.Web
             });
 
             services.AddTransient<IProductService,ProductService>();
+            services.AddTransient<IInventoryService,InventoryService>();
+            services.AddTransient<ICustomerService,CustomerService>();
+            services.AddTransient<IOrderService,OrderService>();
             
         }
 
