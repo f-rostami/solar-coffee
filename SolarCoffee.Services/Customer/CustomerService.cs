@@ -53,7 +53,7 @@ namespace SolarCoffee.Services.Customer
                     IsSuccess = false,
                     Message = "Can't find customer for delete",
                     Time = DateTime.UtcNow
-                }
+                };
             }
 
             try
@@ -77,7 +77,7 @@ namespace SolarCoffee.Services.Customer
                     IsSuccess = false,
                     Message = ex.StackTrace,
                     Time = DateTime.UtcNow
-                }
+                };
             }
         }
 

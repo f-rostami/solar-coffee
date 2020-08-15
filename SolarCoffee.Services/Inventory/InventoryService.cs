@@ -95,7 +95,7 @@ namespace SolarCoffee.Services.Inventory
                 Product = inventory.Product,
                 QuantityOnHand = inventory.QuantityOnHand,
                 SnapshotTime = now
-            }
+            };
 
             _db.ProductInventorySnapshots.Add(snapshot);
         }
